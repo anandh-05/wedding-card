@@ -1,0 +1,27 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3bg" x1="600" y1="0" x2="600" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#291F1A"/>
+      <stop offset="0.54" stop-color="#1A130F"/>
+      <stop offset="1" stop-color="#110B08"/>
+    </linearGradient>
+    <radialGradient id="g3glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 972) rotate(90) scale(240 430)">
+      <stop stop-color="#E7C27D" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#E7C27D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#g3bg)"/>
+  <ellipse cx="600" cy="972" rx="430" ry="240" fill="url(#g3glow)"/>
+  <rect x="128" y="128" width="944" height="1244" rx="50" stroke="#D3A85F" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M342 306C396 260 455 237 517 237C579 237 635 260 682 306" stroke="#E7C27D" stroke-width="3"/>
+  <path d="M858 306C804 260 745 237 683 237C621 237 565 260 518 306" stroke="#E7C27D" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="600" cy="748" r="202" fill="#17100D" fill-opacity="0.72" stroke="#D3A85F" stroke-width="2.5"/>
+  <path d="M493 736C538 690 565 640 565 594C565 548 535 516 492 516C445 516 412 552 412 601C412 648 447 705 493 736Z" fill="#F3DEB2" fill-opacity="0.14" stroke="#E7C27D" stroke-opacity="0.38"/>
+  <path d="M707 736C662 690 635 640 635 594C635 548 665 516 708 516C755 516 788 552 788 601C788 648 753 705 707 736Z" fill="#F3DEB2" fill-opacity="0.14" stroke="#E7C27D" stroke-opacity="0.38"/>
+  <path d="M524 789C556 758 576 740 600 740C624 740 644 758 676 789" stroke="#E7C27D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M298 1079C405 1016 500 981 600 981C700 981 795 1016 902 1079" stroke="#C28F48" stroke-opacity="0.3" stroke-width="1.5"/>
+  <path d="M370 1154C457 1110 525 1087 600 1087C675 1087 743 1110 830 1154" stroke="#C28F48" stroke-opacity="0.22" stroke-width="1.5"/>
+  <circle cx="600" cy="344" r="16" fill="#E7C27D"/>
+  <circle cx="468" cy="390" r="8" fill="#F3DEB2"/>
+  <circle cx="732" cy="390" r="8" fill="#F3DEB2"/>
+</svg>
