@@ -4,10 +4,40 @@ import ambientTrack from '../assets/music/ambient-bells.wav'
 export default function MusicToggle({ label }) {
   const audioRef = useRef(null)
   const [isPlaying, setIsPlaying] = useState(false)
+  const [autoplayBlocked, setAutoplayBlocked] = useState(false)
 
   useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.volume = 0.28
+    const audio = audioRef.current
+
+    if (!audio) {
+      return undefined
+    }
+
+    audio.volume = 0.28
+
+    const playMusic = async () => {
+      try {
+        await audio.play()
+        setIsPlaying(true)
+        setAutoplayBlocked(false)
+      } catch {
+        setIsPlaying(false)
+        setAutoplayBlocked(true)
+      }
+    }
+
+    playMusic()
+
+    const retryAfterInteraction = () => {
+      playMusic()
+    }
+
+    window.addEventListener('pointerdown', retryAfterInteraction, { once: true })
+    window.addEventListener('keydown', retryAfterInteraction, { once: true })
+
+    return () => {
+      window.removeEventListener('pointerdown', retryAfterInteraction)
+      window.removeEventListener('keydown', retryAfterInteraction)
     }
   }, [])
 
@@ -25,8 +55,10 @@ export default function MusicToggle({ label }) {
     try {
       await audioRef.current.play()
       setIsPlaying(true)
+      setAutoplayBlocked(false)
     } catch {
       setIsPlaying(false)
+      setAutoplayBlocked(true)
     }
   }
 
@@ -55,7 +87,11 @@ export default function MusicToggle({ label }) {
             Music
           </span>
           <span className="block font-medium text-ivory">
-            {isPlaying ? `Pause ${label}` : `Play ${label}`}
+            {isPlaying
+              ? `Pause ${label}`
+              : autoplayBlocked
+                ? `Tap to play ${label}`
+                : `Play ${label}`}
           </span>
         </span>
       </button>

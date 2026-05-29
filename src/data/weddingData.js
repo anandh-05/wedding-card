@@ -2,6 +2,8 @@ import heroBackdrop from '../assets/images/hero-cinematic.svg'
 
 export const weddingData = {
   musicLabel: 'Ceremonial Bells',
+  shareText:
+    'Join us as Akshaya Sivan and Sreelal P celebrate their wedding in Mukkam, Kozhikode on 30 August 2026.',
   countdownTarget: '2026-08-30T10:00:00+05:30',
   hero: {
     familyLine: 'Together with their families',
