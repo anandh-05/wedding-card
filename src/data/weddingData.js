@@ -22,15 +22,16 @@ export const weddingData = {
       'A heartfelt celebration wrapped in love, traditional rituals, and golden kasavu light awaits your presence.',
   },
   invitation: {
-    eyebrow: 'The Invitation',
-    title: 'A sacred beginning, lit with grace',
+    eyebrow: 'നമസ്കാരം',
+    title: 'സ്നേഹവും അനുഗ്രഹവും നിറഞ്ഞ ഒരു പുണ്യാരംഭം',
     subtitle:
-      'With the blessings of the Almighty and the love of our families, we invite you to witness a union filled with warmth, devotion, and Kerala festive grace.',
+      'ഈശ്വരാനുഗ്രഹത്തോടെയും കുടുംബങ്ങളുടെ സ്നേഹത്തോടെയും, കേരളത്തിന്റെ പാരമ്പര്യഭംഗിയും സന്തോഷവും നിറഞ്ഞ ഈ വിവാഹാഘോഷത്തിലേക്ക് നിങ്ങളെ സ്നേഹപൂർവ്വം ക്ഷണിക്കുന്നു.',
     paragraphs: [
-      'With hearts full of gratitude, we invite you to join us for the wedding of Akshaya Sivan and Sreelal P as they begin a beautiful new chapter surrounded by family, music, lamps, and timeless rituals.',
-      'Your presence will mean the world to us as we gather to celebrate every prayer, every promise, and every shimmering kasavu moment of this cherished occasion.',
+      'നന്ദിയും സന്തോഷവും നിറഞ്ഞ ഹൃദയത്തോടെ, Akshaya Sivanയും Sreelal Pയും ജീവിതത്തിലെ മനോഹരമായ പുതിയ അധ്യായത്തിലേക്ക് കടക്കുന്ന ഈ മംഗളവേളയിൽ പങ്കുചേരുവാൻ നിങ്ങളെ ക്ഷണിക്കുന്നു.',
+      'കുടുംബങ്ങളുടെ പ്രാർത്ഥനകളും, നിലവിളക്കിന്റെ പ്രകാശവും, കേരളീയ പാരമ്പര്യത്തിന്റെ ഭംഗിയും നിറഞ്ഞ ഈ പ്രത്യേക ദിനത്തിൽ നിങ്ങളുടെ സാന്നിധ്യവും അനുഗ്രഹവും ഞങ്ങൾക്ക് ഏറെ വിലപ്പെട്ടതാണ്.',
+      'ഓരോ വാഗ്ദാനവും, ഓരോ പുഞ്ചിരിയും, ഓരോ കസവ് നിമിഷവും സ്നേഹത്തോടെ ആഘോഷിക്കുന്ന ഈ അവസരത്തിൽ ഹൃദയപൂർവ്വം നിങ്ങളുടെ സാന്നിധ്യം അഭ്യർത്ഥിക്കുന്നു.',
     ],
-    signature: 'With love and blessings, The Families of Akshaya and Sreelal',
+    signature: 'സ്നേഹത്തോടെ, The Families of Akshaya and Sreelal',
   },
   story: [
     {

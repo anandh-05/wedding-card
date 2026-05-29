@@ -4,12 +4,11 @@ import FloatingPetals from './components/FloatingPetals'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import InvitationMessage from './components/InvitationMessage'
+import LoveStorySection from './components/LoveStorySection'
 import Loader from './components/Loader'
 import MusicToggle from './components/MusicToggle'
 import ScrollProgress from './components/ScrollProgress'
-import StoryTimeline from './components/StoryTimeline'
 import VenueSection from './components/VenueSection'
-import WhatsAppShare from './components/WhatsAppShare'
 import { weddingData } from './data/weddingData'
 
 function App() {
@@ -37,14 +36,13 @@ function App() {
       <FloatingPetals />
       <ScrollProgress />
       <MusicToggle label={weddingData.musicLabel} />
-      <WhatsAppShare shareText={weddingData.shareText} />
       {showLoader ? <Loader isVisible={loaderVisible} /> : null}
 
       <HeroSection hero={weddingData.hero} />
 
       <main className="relative z-10">
         <InvitationMessage invitation={weddingData.invitation} />
-        <StoryTimeline story={weddingData.story} />
+        <LoveStorySection />
         <CountdownSection
           names={weddingData.hero.shortNames}
           targetDate={weddingData.countdownTarget}
