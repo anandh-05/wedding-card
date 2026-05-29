@@ -12,24 +12,24 @@ export const weddingData = {
     shortNames: 'Akshaya & Sreelal',
     dateLabel: 'Sunday, 30 August 2026',
     city: 'Mukkam, Kozhikode',
-    kicker: 'A Kerala celebration of love, light, and blessings',
+    kicker: 'A traditional celebration of love and blessings',
     tagline:
-      'Request the honour of your presence as two hearts begin their forever surrounded by family, temple lamps, kasavu glow, and blessings.',
+      'സ്നേഹവും സന്തോഷവും നിറഞ്ഞ ഹൃദയങ്ങളോടെ, ഞങ്ങളുടെ ജീവിതത്തിലെ പുതിയ അധ്യായത്തിന് സാക്ഷികളാകാൻ നിങ്ങളെ സാദരം ക്ഷണിക്കുന്നു.',
     backgroundImage: heroBackdrop,
-    ceremonyTime: '10:00 AM',
+    ceremonyTime: '10:00 TO 11:00 AM ',
     ceremonyVenue: 'Udayagiri Convention Center',
     weekendNote:
-      'A heartfelt celebration wrapped in love, traditional rituals, and golden kasavu light awaits your presence.',
+      'A heartfelt celebration wrapped in love and traditional rituals awaits your presence.',
   },
   invitation: {
-    eyebrow: 'നമസ്കാരം',
-    title: 'സ്നേഹവും അനുഗ്രഹവും നിറഞ്ഞ ഒരു പുണ്യാരംഭം',
+    eyebrow: 'ക്ഷണം',
+    title: 'ജീവിതം മുഴുവൻ കൈകോർക്കാനുള്ള ഒരു മനോഹര വാഗ്ദാനം...',
     subtitle:
-      'ഈശ്വരാനുഗ്രഹത്തോടെയും കുടുംബങ്ങളുടെ സ്നേഹത്തോടെയും, കേരളത്തിന്റെ പാരമ്പര്യഭംഗിയും സന്തോഷവും നിറഞ്ഞ ഈ വിവാഹാഘോഷത്തിലേക്ക് നിങ്ങളെ സ്നേഹപൂർവ്വം ക്ഷണിക്കുന്നു.',
+      'കുടുംബങ്ങളുടെ അനുഗ്രഹവും പ്രിയപ്പെട്ടവരുടെ സ്നേഹവും സാക്ഷിയായി ഞങ്ങളുടെ വിവാഹച്ചടങ്ങിൽ താങ്കളെയും കുടുംബത്തെയും ഹൃദയം നിറഞ്ഞ് സ്വാഗതം ചെയ്യുന്നു.',
     paragraphs: [
-      'നന്ദിയും സന്തോഷവും നിറഞ്ഞ ഹൃദയത്തോടെ, Akshaya Sivanയും Sreelal Pയും ജീവിതത്തിലെ മനോഹരമായ പുതിയ അധ്യായത്തിലേക്ക് കടക്കുന്ന ഈ മംഗളവേളയിൽ പങ്കുചേരുവാൻ നിങ്ങളെ ക്ഷണിക്കുന്നു.',
+      'നന്ദിയും സന്തോഷവും നിറഞ്ഞ ഹൃദയത്തോടെ, അക്ഷയയുടെയും ശ്രീലാലിൻ്റെയും ജീവിതത്തിലെ മനോഹരമായ പുതിയ അധ്യായത്തിലേക്ക് കടക്കുന്ന ഈ മംഗളവേളയിൽ പങ്കുചേരുവാൻ നിങ്ങളെ ക്ഷണിക്കുന്നു.',
       'കുടുംബങ്ങളുടെ പ്രാർത്ഥനകളും, നിലവിളക്കിന്റെ പ്രകാശവും, കേരളീയ പാരമ്പര്യത്തിന്റെ ഭംഗിയും നിറഞ്ഞ ഈ പ്രത്യേക ദിനത്തിൽ നിങ്ങളുടെ സാന്നിധ്യവും അനുഗ്രഹവും ഞങ്ങൾക്ക് ഏറെ വിലപ്പെട്ടതാണ്.',
-      'ഓരോ വാഗ്ദാനവും, ഓരോ പുഞ്ചിരിയും, ഓരോ കസവ് നിമിഷവും സ്നേഹത്തോടെ ആഘോഷിക്കുന്ന ഈ അവസരത്തിൽ ഹൃദയപൂർവ്വം നിങ്ങളുടെ സാന്നിധ്യം അഭ്യർത്ഥിക്കുന്നു.',
+      'ഓരോ വാഗ്ദാനവും, ഓരോ പുഞ്ചിരിയും, ഓരോ നിമിഷവും സ്നേഹത്തോടെ ആഘോഷിക്കുന്ന ഈ അവസരത്തിൽ ഹൃദയപൂർവ്വം നിങ്ങളുടെ സാന്നിധ്യം അഭ്യർത്ഥിക്കുന്നു.',
     ],
     signature: 'സ്നേഹത്തോടെ, The Families of Akshaya and Sreelal',
   },

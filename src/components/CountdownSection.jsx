@@ -20,7 +20,7 @@ export default function CountdownSection({ targetDate, names }) {
       <div className="kasavu-panel relative overflow-hidden rounded-[1.25rem] px-5 py-10 sm:px-10 sm:py-16">
         <div aria-hidden="true" className="pookalam absolute left-1/2 top-8 h-36 w-36 -translate-x-1/2 opacity-10 sm:h-52 sm:w-52" />
         <p className="relative text-center text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-gold-500/85 sm:text-xs sm:tracking-[0.42em]">
-          Countdown to the Ceremony
+          Countdown To Our Forever
         </p>
         <h2 className="relative mt-4 text-center font-heading text-3xl leading-tight text-ivory sm:mt-5 sm:text-5xl lg:text-6xl">
           {timeLeft.isComplete
@@ -28,9 +28,8 @@ export default function CountdownSection({ targetDate, names }) {
             : `${names} say "I do" very soon`}
         </h2>
         <p className="relative mx-auto mt-4 max-w-2xl text-center text-base leading-7 text-ivory/72 sm:mt-5 sm:text-lg sm:leading-8">
-          Each passing day brings us closer to the lamps, blessings, pookalam, and the moment forever begins.
-        </p>
-
+          Each passing day brings us closer to a lifetime filled with love, laughter, traditions, and beautiful memories.        
+          </p>
         {timeLeft.isComplete ? (
           <div className="relative mx-auto mt-8 max-w-xl rounded-[1.25rem] border border-gold-400/25 bg-white/45 px-5 py-6 text-center text-base leading-7 text-ivory/76 backdrop-blur-sm sm:mt-10 sm:px-6 sm:py-8 sm:text-lg sm:leading-8">
             The ceremony is underway, the family is gathered, and the celebration has begun.
