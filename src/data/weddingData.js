@@ -73,7 +73,6 @@ export const weddingData = {
     notes: [
       'Please arrive 30 minutes before the ceremony for a smooth welcome and seating.',
       'Guest assistance will be available at the convention center entrance.',
-      'Traditional Kerala festive attire, kasavu, cream, gold, and rich green tones are warmly encouraged.',
     ],
   },
   footer: {

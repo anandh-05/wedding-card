@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import ambientTrack from '../assets/music/ambient-bells.wav'
+import ambientTrack from '../assets/music/Love At First Sight .mp3'
 
 export default function MusicToggle({ label }) {
   const audioRef = useRef(null)
