@@ -1,9 +1,7 @@
 import heroBackdrop from '../assets/images/hero-cinematic.svg'
 
 export const weddingData = {
-  musicLabel: 'Evening Strings',
-  shareText:
-    'Join us as Akshaya Sivan and Sreelal P celebrate their wedding in Mukkam, Kozhikode on 30 August 2026.',
+  musicLabel: 'Ceremonial Bells',
   countdownTarget: '2026-08-30T10:00:00+05:30',
   hero: {
     familyLine: 'Together with their families',
@@ -12,23 +10,23 @@ export const weddingData = {
     shortNames: 'Akshaya & Sreelal',
     dateLabel: 'Sunday, 30 August 2026',
     city: 'Mukkam, Kozhikode',
-    kicker: 'A celebration of love, light, and blessings',
+    kicker: 'A Kerala celebration of love, light, and blessings',
     tagline:
-      'Request the honour of your presence as two hearts begin their forever surrounded by family, blessings, and a celebration filled with warmth.',
+      'Request the honour of your presence as two hearts begin their forever surrounded by family, temple lamps, kasavu glow, and blessings.',
     backgroundImage: heroBackdrop,
     ceremonyTime: '10:00 AM',
     ceremonyVenue: 'Udayagiri Convention Center',
     weekendNote:
-      'A heartfelt celebration wrapped in love, music, and golden light awaits your presence.',
+      'A heartfelt celebration wrapped in love, traditional rituals, and golden kasavu light awaits your presence.',
   },
   invitation: {
     eyebrow: 'The Invitation',
-    title: 'A sacred beginning, written with grace',
+    title: 'A sacred beginning, lit with grace',
     subtitle:
-      'With the blessings of the Almighty and the love of our families, we invite you to witness a union filled with warmth, devotion, and joy.',
+      'With the blessings of the Almighty and the love of our families, we invite you to witness a union filled with warmth, devotion, and Kerala festive grace.',
     paragraphs: [
-      'With hearts full of gratitude, we invite you to join us for the wedding of Akshaya Sivan and Sreelal P as they begin a beautiful new chapter surrounded by family, music, and timeless rituals.',
-      'Your presence will mean the world to us as we gather to celebrate every prayer, every promise, and every shimmering moment of this cherished occasion.',
+      'With hearts full of gratitude, we invite you to join us for the wedding of Akshaya Sivan and Sreelal P as they begin a beautiful new chapter surrounded by family, music, lamps, and timeless rituals.',
+      'Your presence will mean the world to us as we gather to celebrate every prayer, every promise, and every shimmering kasavu moment of this cherished occasion.',
     ],
     signature: 'With love and blessings, The Families of Akshaya and Sreelal',
   },
@@ -55,7 +53,7 @@ export const weddingData = {
       date: 'August 2026',
       title: 'The wedding week',
       description:
-        'Now the music is ready, the marigolds are in bloom, and a weekend of rituals, laughter, and forever awaits.',
+        'Now the lamps are ready, the pookalam is in bloom, and a weekend of rituals, laughter, and forever awaits.',
     },
   ],
   venue: {
@@ -72,41 +70,12 @@ export const weddingData = {
     notes: [
       'Please arrive 30 minutes before the ceremony for a smooth welcome and seating.',
       'Guest assistance will be available at the convention center entrance.',
-      'Traditional Indian festive attire is warmly encouraged throughout the celebration.',
-    ],
-    contact: [
-      {
-        label: 'Wedding Concierge',
-        value: '+91 98765 43210',
-        href: 'tel:+919876543210',
-      },
-      {
-        label: 'Family Email',
-        value: 'kapoormehta.family@example.com',
-        href: 'mailto:kapoormehta.family@example.com',
-      },
+      'Traditional Kerala festive attire, kasavu, cream, gold, and rich green tones are warmly encouraged.',
     ],
   },
   footer: {
     thankYou:
       'Thank you for surrounding this new beginning with your love and blessings.',
     families: 'The Families of Akshaya and Sreelal',
-    socialLinks: [
-      {
-        label: 'Instagram',
-        value: '@akshayaandsreelal',
-        href: 'https://www.instagram.com/',
-      },
-      {
-        label: 'Call Family',
-        value: '+91 99887 77665',
-        href: 'tel:+919988777665',
-      },
-      {
-        label: 'Email Blessings',
-        value: 'blessings@example.com',
-        href: 'mailto:blessings@example.com',
-      },
-    ],
   },
 }

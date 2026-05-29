@@ -33,9 +33,9 @@ export default function ScrollProgress() {
   }, [])
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 top-0 z-40 h-1 bg-white/5">
+    <div className="pointer-events-none fixed inset-x-0 top-0 z-40 h-1 bg-gold-500/10">
       <div
-        className="h-full bg-gradient-to-r from-gold-500 via-gold-300 to-cream-200 shadow-[0_0_18px_rgba(212,175,112,0.55)] transition-[width] duration-150"
+        className="h-full bg-gradient-to-r from-gold-500 via-gold-300 to-gold-500 shadow-[0_0_18px_rgba(157,109,19,0.38)] transition-[width] duration-150"
         style={{ width: `${progress}%` }}
       />
     </div>

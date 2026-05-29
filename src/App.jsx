@@ -9,7 +9,6 @@ import MusicToggle from './components/MusicToggle'
 import ScrollProgress from './components/ScrollProgress'
 import StoryTimeline from './components/StoryTimeline'
 import VenueSection from './components/VenueSection'
-import WhatsAppShare from './components/WhatsAppShare'
 import { weddingData } from './data/weddingData'
 
 function App() {
@@ -37,7 +36,6 @@ function App() {
       <FloatingPetals />
       <ScrollProgress />
       <MusicToggle label={weddingData.musicLabel} />
-      <WhatsAppShare shareText={weddingData.shareText} />
       {showLoader ? <Loader isVisible={loaderVisible} /> : null}
 
       <HeroSection hero={weddingData.hero} />
@@ -52,7 +50,7 @@ function App() {
         <VenueSection venue={weddingData.venue} />
       </main>
 
-      <Footer footer={weddingData.footer} contacts={weddingData.venue.contact} />
+      <Footer footer={weddingData.footer} />
     </div>
   )
 }

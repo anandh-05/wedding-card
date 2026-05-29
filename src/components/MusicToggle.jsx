@@ -36,10 +36,10 @@ export default function MusicToggle({ label }) {
       <button
         type="button"
         onClick={handleToggle}
-        className="fixed right-5 top-6 z-40 inline-flex items-center gap-3 rounded-full border border-gold-400/30 bg-black/35 px-4 py-3 text-left text-sm text-ivory shadow-[0_14px_40px_rgba(0,0,0,0.3)] backdrop-blur-md transition hover:-translate-y-0.5 hover:border-gold-300/55 sm:right-8 sm:top-8"
+        className="fixed right-4 top-5 z-40 inline-flex min-h-12 min-w-12 items-center justify-center gap-3 rounded-full border border-gold-400/35 bg-white/75 p-2 text-left text-sm text-ivory shadow-[0_14px_40px_rgba(95,64,19,0.14)] backdrop-blur-md transition hover:-translate-y-0.5 hover:border-gold-500/55 sm:right-8 sm:top-8 sm:px-4 sm:py-3"
         aria-label={isPlaying ? 'Pause background music' : 'Play background music'}
       >
-        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gold-500/16 text-gold-200">
+        <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gold-500/15 text-gold-500 sm:h-10 sm:w-10">
           {isPlaying ? (
             <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current">
               <path d="M8 6h3v12H8zm5 0h3v12h-3z" />
@@ -51,7 +51,7 @@ export default function MusicToggle({ label }) {
           )}
         </span>
         <span className="hidden sm:block">
-          <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-gold-300/75">
+          <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-gold-500/80">
             Music
           </span>
           <span className="block font-medium text-ivory">
