@@ -47,7 +47,7 @@ export default function HeroSection({ hero }) {
             {hero.kicker}
           </p>
 
-          <FamilyDetails family={hero.brideFamily} prefix="D/o" />
+          {/* <FamilyDetails family={hero.brideFamily} prefix="D/o" /> */}
 
           <h1 className="mt-5 text-center font-heading text-[clamp(3.25rem,17vw,5.25rem)] leading-[0.94] text-ivory drop-shadow-[0_10px_22px_rgba(95,64,19,0.12)] sm:mt-6 sm:text-7xl lg:text-[7.75rem]">
             <span className="block">{hero.bride}</span>
@@ -55,7 +55,7 @@ export default function HeroSection({ hero }) {
             <span className="block">{hero.groom}</span>
           </h1>
 
-          <FamilyDetails family={hero.groomFamily} prefix="S/o" />
+          {/* <FamilyDetails family={hero.groomFamily} prefix="S/o" /> */}
 
           <div className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs uppercase tracking-[0.2em] text-ivory/72 sm:mt-7 sm:text-base sm:tracking-[0.34em]">
             <span>{hero.dateLabel}</span>
