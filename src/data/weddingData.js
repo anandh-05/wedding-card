@@ -8,7 +8,15 @@ export const weddingData = {
   hero: {
     familyLine: 'Together with their families',
     bride: 'Akshaya Sivan',
+    brideFamily: {
+      parents: "Sivan Kappala & Rekha M.V",
+      address: "Kappala , Alli(po) Mukkam",
+    },
     groom: 'Sreelal P',
+    groomFamily: {
+      parents: "Sreedharan P & Sunitha S.K",
+      address: "",
+    },
     shortNames: 'Akshaya & Sreelal',
     dateLabel: 'Sunday, 30 August 2026',
     city: 'Mukkam, Kozhikode',
