@@ -1,3 +1,23 @@
+function FamilyDetails({ family, prefix, align = 'center' }) {
+  if (!family) {
+    return null
+  }
+
+  const alignment =
+    align === 'right' ? 'lg:text-right' : align === 'left' ? 'lg:text-left' : 'text-center'
+
+  return (
+    <div className={`mx-auto mt-5 max-w-2xl text-lg leading-8 text-ivory/76 sm:text-xl sm:leading-9 ${alignment}`}>
+      <p className="font-semibold text-ivory/88">
+        {prefix ? `${prefix} ${family.parents}` : family.parents}
+      </p>
+      <p className="mt-1 text-base leading-7 text-ivory/70 sm:text-lg sm:leading-8">
+        {family.address}
+      </p>
+    </div>
+  )
+}
+
 export default function HeroSection({ hero }) {
   const scrollToSection = (sectionId) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' })
@@ -34,6 +54,8 @@ export default function HeroSection({ hero }) {
             <span className="mt-2 block text-gold-500 sm:mt-3">&amp;</span>
             <span className="block">{hero.groom}</span>
           </h1>
+
+          <FamilyDetails family={hero.groomFamily} prefix="S/o" />
 
           <div className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs uppercase tracking-[0.2em] text-ivory/72 sm:mt-7 sm:text-base sm:tracking-[0.34em]">
             <span>{hero.dateLabel}</span>
