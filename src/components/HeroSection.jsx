@@ -27,6 +27,8 @@ export default function HeroSection({ hero }) {
             {hero.kicker}
           </p>
 
+          <FamilyDetails family={hero.brideFamily} prefix="D/o" />
+
           <h1 className="mt-5 text-center font-heading text-[clamp(3.25rem,17vw,5.25rem)] leading-[0.94] text-ivory drop-shadow-[0_10px_22px_rgba(95,64,19,0.12)] sm:mt-6 sm:text-7xl lg:text-[7.75rem]">
             <span className="block">{hero.bride}</span>
             <span className="mt-2 block text-gold-500 sm:mt-3">&amp;</span>

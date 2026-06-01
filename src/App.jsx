@@ -4,6 +4,7 @@ import FloatingPetals from './components/FloatingPetals'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import InvitationMessage from './components/InvitationMessage'
+import LoveStorySection from './components/LoveStorySection'
 import Loader from './components/Loader'
 import MusicToggle from './components/MusicToggle'
 import ScrollProgress from './components/ScrollProgress'
@@ -41,6 +42,7 @@ function App() {
 
       <main className="relative z-10">
         <InvitationMessage invitation={weddingData.invitation} />
+        <LoveStorySection />
         <CountdownSection
           names={weddingData.hero.shortNames}
           targetDate={weddingData.countdownTarget}

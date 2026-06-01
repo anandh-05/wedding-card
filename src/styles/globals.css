@@ -247,6 +247,11 @@ textarea {
   box-shadow: 0 0 24px rgba(200, 154, 44, 0.35);
 }
 
+.love-story-image {
+  animation: love-story-translate 9s ease-in-out infinite;
+  will-change: transform;
+}
+
 .petal {
   --petal-left: 50%;
   --petal-size: 16px;
@@ -277,6 +282,17 @@ textarea {
   50% {
     opacity: 1;
     transform: translateX(-50%) scale(1.06);
+  }
+}
+
+@keyframes love-story-translate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-0.85rem);
   }
 }
 
