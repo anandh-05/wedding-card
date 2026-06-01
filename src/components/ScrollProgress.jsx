@@ -1,4 +1,4 @@
-import { useEffect, useEffectEvent, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 function getScrollProgress() {
   if (typeof window === 'undefined') {
@@ -18,9 +18,9 @@ function getScrollProgress() {
 export default function ScrollProgress() {
   const [progress, setProgress] = useState(() => getScrollProgress())
 
-  const updateProgress = useEffectEvent(() => {
+  const updateProgress = useCallback(() => {
     setProgress(getScrollProgress())
-  })
+  }, [])
 
   useEffect(() => {
     window.addEventListener('scroll', updateProgress, { passive: true })
@@ -30,7 +30,7 @@ export default function ScrollProgress() {
       window.removeEventListener('scroll', updateProgress)
       window.removeEventListener('resize', updateProgress)
     }
-  }, [])
+  }, [updateProgress])
 
   return (
     <div className="pointer-events-none fixed inset-x-0 top-0 z-40 h-1 bg-gold-500/10">
