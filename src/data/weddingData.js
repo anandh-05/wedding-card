@@ -7,8 +7,8 @@ export const weddingData = {
   countdownTarget: '2026-08-30T10:00:00+05:30',
   hero: {
     familyLine: 'Together with their families',
-    bride: 'Akshaya Sivan',
-    groom: 'Sreelal P',
+    bride: 'Akshaya',
+    groom: 'Sreelal',
     shortNames: 'Akshaya & Sreelal',
     dateLabel: 'Sunday, 30 August 2026',
     city: 'Mukkam, Kozhikode',

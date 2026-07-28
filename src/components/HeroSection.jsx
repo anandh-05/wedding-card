@@ -63,7 +63,7 @@ export default function HeroSection({ hero }) {
             <div className="mt-6 grid gap-5 sm:mt-7 sm:grid-cols-2">
               <div className="space-y-2">
                 <p className="text-xs uppercase tracking-[0.32em] text-ivory/55">
-                  Main Ceremony
+                  Muhurtham
                 </p>
                 <p className="font-heading text-3xl text-ivory">{hero.ceremonyTime}</p>
               </div>
