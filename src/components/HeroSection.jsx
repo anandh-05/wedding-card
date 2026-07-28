@@ -46,13 +46,6 @@ export default function HeroSection({ hero }) {
           <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:gap-4">
             <button
               type="button"
-              onClick={() => scrollToSection('invitation')}
-              className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-gradient-to-r from-gold-500 via-gold-400 to-gold-200 px-6 py-4 text-sm font-semibold uppercase tracking-[0.22em] text-[#261a0a] shadow-[0_20px_50px_rgba(157,109,19,0.22)] transition hover:-translate-y-0.5 sm:w-auto sm:px-8 sm:tracking-[0.3em]"
-            >
-              Open Invitation
-            </button>
-            <button
-              type="button"
               onClick={() => scrollToSection('venue')}
               className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-gold-400/35 bg-white/55 px-6 py-4 text-sm font-semibold uppercase tracking-[0.22em] text-ivory shadow-[0_14px_35px_rgba(95,64,19,0.08)] backdrop-blur-sm transition hover:border-gold-500/60 hover:bg-white/75 sm:w-auto sm:px-8 sm:tracking-[0.3em]"
             >

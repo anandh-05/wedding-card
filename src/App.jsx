@@ -3,7 +3,6 @@ import CountdownSection from './components/CountdownSection'
 import FloatingPetals from './components/FloatingPetals'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
-import InvitationMessage from './components/InvitationMessage'
 import Loader from './components/Loader'
 import MusicToggle from './components/MusicToggle'
 import ScrollProgress from './components/ScrollProgress'
@@ -40,7 +39,6 @@ function App() {
       <HeroSection hero={weddingData.hero} />
 
       <main className="relative z-10">
-        <InvitationMessage invitation={weddingData.invitation} />
         <CountdownSection
           names={weddingData.hero.shortNames}
           targetDate={weddingData.countdownTarget}
